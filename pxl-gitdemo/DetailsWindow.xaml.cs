@@ -10,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace pxl_gitdemo
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DetailsWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DetailsWindow : Window
     {
-        public MainWindow()
+        public DetailsWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            DetailsWindow det = new DetailsWindow();
-            det.Show();
         }
     }
 }
