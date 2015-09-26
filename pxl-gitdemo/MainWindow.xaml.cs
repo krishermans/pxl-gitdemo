@@ -27,7 +27,7 @@ namespace pxl_gitdemo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello from git");
+            MessageBox.Show("Hello from PXL-GIT");
         }
     }
 }
